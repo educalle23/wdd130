@@ -1,3 +1,32 @@
 p {
   color: red;
 }
+main{
+  max-width: 840px;
+}
+main{
+  width: 20rem;
+  margin: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  background-color:  #eee;
+  color: #eee;
+}
+
+aside img{
+  width: 200 px;
+  height: auto;
+}
+
+main img{
+  width: 150 px;
+  height: auto;
+}
+
+p{ padding: 0;}
+
+footer{
+  margin- top: 15px;
+  border-top: 1px solid #000;
+  text-align: center;
+}

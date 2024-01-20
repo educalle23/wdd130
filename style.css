@@ -1,3 +1,14 @@
 p {
   color: red;
 }
+main{
+  max-width: 840px;
+}
+main{
+  width: 20rem;
+  margin: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  background-color:  #eee;
+  color: #eee;
+}

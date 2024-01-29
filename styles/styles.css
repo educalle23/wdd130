@@ -1,4 +1,15 @@
-main{
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  main{
+    max-width: 840px;
+  }
+  
+  main{
     width: 20rem;
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.2);
@@ -6,47 +17,68 @@ main{
     background-color:  #eee;
     color: #333;
     text-align: center;
-}
-nav{
+  }
+  
+  nav{
     background-color: steelblue;
     padding: 10px;
-}
-nav a{
+  }
+  nav a{
     color: white;
     padding: 10px;
     display: block;
-}
-
-h1{
+  }
+  
+  h1{
     color: steelblue;
-}
-aside{
-    width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    padding: 1rem;
-    background-color:  #eee;
-    color: #333;
-    text-align: center;
-
-}
-
-aside img{
+  }
+  aside h2{
+    position: absolute;
+    top: 65 px;
+    left: 150 px;
+  }
+  
+  
+  aside img{
     width: 200 px;
     height: auto;
-}
+    position: relative;
+  }
   
-main img{
+  main img{
     width: 150 px;
     height: auto;
-}
+    float: right;
+  }
   
-p{
-     padding: 0;
-}
+  p{ padding: 0;}
   
-footer{
-    margin- top: 15px;
+  footer{
+    margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
-}
+  }
+  
+  .box{
+    margin: 1rem;
+    border: 1px solid rgba(0,0,0,.1);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
+  }
+  
+  
+  aside {
+    width: 20em;
+    text-align: center;
+    position: relative;
+  }
+  
+  /*Class selectors*/
+  .box {
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 1);
+    padding: 1 rem;
+  background-color: #eee;
+  color: #000;
+  }

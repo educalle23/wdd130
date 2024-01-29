@@ -26,15 +26,15 @@ aside img{
 }
 
 main img{
-  float: right;
   width: 150 px;
   height: auto;
+  float: right;
 }
 
 p{ padding: 0;}
 
 footer{
-  margin- top: 15px;
+  margin: top: 15px;
   border-top: 1px solid #000;
   text-align: center;
 }
@@ -48,7 +48,7 @@ footer{
 }
 
 aside h2{
-  position: absolute;
   top: 20px;
   left: 15px;
+  position: absolute;
 }

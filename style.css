@@ -25,9 +25,9 @@ aside img{
 }
 
 main img{
+  float: right;
   width: 150 px;
   height: auto;
-  float: right;
 }
 
 p{ padding: 0;}
@@ -48,6 +48,6 @@ footer{
 .
 aside h2 {
   position: absolute;
-  top: 10px;
+  top: 20px;
   left: 15px;
 }

@@ -52,3 +52,8 @@ aside h2{
   left: 15px;
   position: absolute;
 }
+
+aside {
+  width: 20em;
+  text-align: center;
+}

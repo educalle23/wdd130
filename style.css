@@ -4,20 +4,40 @@
   box-sizing: border-box;
 }
 
-p{
-  color: red;
-}
+
 main{
   max-width: 840px;
 }
+
 main{
   width: 20rem;
   margin: 1rem;
   border: 1px solid rgba(0, 0, 0, 0.2);
   padding: 1rem;
   background-color:  #eee;
-  color: #eee;
+  color: #333;
+  text-align: center;
 }
+
+nav{
+  background-color: steelblue;
+  padding: 10px;
+}
+nav a{
+  color: white;
+  padding: 10px;
+  display: block;
+}
+
+h1{
+  color: steelblue;
+}
+aside h2{
+  position: absolute;
+  top: 65 px;
+  left: 150 px;
+}
+
 
 aside img{
   width: 200 px;
@@ -34,7 +54,7 @@ main img{
 p{ padding: 0;}
 
 footer{
-  margin: top 15px;
+  margin-top: 15px;
   border-top: 1px solid #000;
   text-align: center;
 }
@@ -47,11 +67,6 @@ footer{
   color: #000;
 }
 
-aside h2{
-  top: 20px;
-  left: 15px;
-  position: absolute;
-}
 
 aside {
   width: 20em;
@@ -59,8 +74,11 @@ aside {
   position: relative;
 }
 
-/*Class selector 
-nav class="navigation"
-main class="paragrhaph"
-aside class="box"
-*/
+/*Class selector*/
+.box {
+  margin: 1rem;
+  border: 1px solid rgba(0, 0, 0, 1);
+  padding: 1 rem;
+background-color: #eee;
+color: #000;
+}

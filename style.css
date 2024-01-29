@@ -56,4 +56,11 @@ aside h2{
 aside {
   width: 20em;
   text-align: center;
+  position: relative;
 }
+
+/*Class selector 
+nav class="navigation"
+main class="paragrhaph"
+aside class="box"
+*/

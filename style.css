@@ -22,6 +22,7 @@ main{
 aside img{
   width: 200 px;
   height: auto;
+  position: relative;
 }
 
 main img{

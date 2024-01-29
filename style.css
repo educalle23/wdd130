@@ -1,10 +1,10 @@
-* {
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-p {
+p{
   color: red;
 }
 main{
@@ -39,7 +39,7 @@ footer{
   text-align: center;
 }
 
-.box {
+.box{
   margin: 1rem;
   border: 1px solid rgba(0,0,0,.1);
   padding: 1rem;
@@ -47,7 +47,7 @@ footer{
   color: #000;
 }
 
-aside h2 {
+aside h2{
   position: absolute;
   top: 20px;
   left: 15px;

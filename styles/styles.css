@@ -32,13 +32,13 @@ aside h2 {
   
   
 aside img{
-  width: 100 px;
+  width: 100px;
   height: auto;
   position: relative;
 }
   
 main img{
-  width: 150 px;
+  width: 150px;
   height: auto;
   float: right;
 }

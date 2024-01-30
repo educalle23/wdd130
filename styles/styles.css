@@ -21,7 +21,7 @@ main{
   
 h1{
   color: steelblue;
-  padding: .5rem;
+  padding: 1rem;
 }
   
 main img{
@@ -46,7 +46,6 @@ aside h2 {
   left: 70px;
 }
   
-  
 aside img{
   width: 100px;
   height: auto;
@@ -61,7 +60,7 @@ footer{
   
 .box{
   margin: 1rem;
-  border: 1px solid rgba(0,0,0,.1);
+  border: px solid rgba(0,0,0,.1);
   padding: 1rem;
   background-color: #ddd;
   color: #000;

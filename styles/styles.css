@@ -32,9 +32,10 @@
   h1{
     color: steelblue;
   }
-  aside h2{
+
+  aside h2 {
     position: absolute;
-    top: 65 px;
+    top: 50 px;
     left: 150 px;
   }
   
@@ -68,17 +69,20 @@
   }
   
   
-  aside {
-    width: 20em;
-    text-align: center;
-    position: relative;
-  }
+aside {
+  width: 20em;
+  text-align: center;
+  position: relative;
+}
   
-  /*Class selectors*/
-  .box {
-    margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, 1);
-    padding: 1 rem;
+/*Class selectors*/
+.box {
+  margin: 1rem;
+  border: 1px solid rgba(0, 0, 0, 1);
+  padding: 1rem;
   background-color: #eee;
   color: #000;
-  }
+}
+.indent {
+  padding-left: 1rem;
+}

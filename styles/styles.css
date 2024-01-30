@@ -26,21 +26,25 @@ h1{
 
 aside h2 {
   position: absolute;
-  margin-top: 1rem;
-  margin-left: 2rem;
+  top: 10px;
+  left: 70px;
 }
   
   
 aside img{
   width: 100px;
   height: auto;
-  position: relative;
+
 }
   
 main img{
-  width: 150px;
+  width: 100px;
   height: auto;
+  border: 1px solid steelblue;
+  padding: 2px;
+  box-shadow: 0 0 30px gray;
   float: right;
+  margin: 0 0 1rem 1rem;
 }
   
 p{ padding: 0;
@@ -68,7 +72,7 @@ aside {
   position: relative;
 }
   
-/*Class selectors*/
+/* Class selectors */
 .box {
   margin: 1rem;
   border: 1px solid rgba(0, 0, 0, 1);

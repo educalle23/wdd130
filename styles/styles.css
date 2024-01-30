@@ -21,13 +21,13 @@ main{
   
 h1{
   color: steelblue;
-  padding: 5rem;
+  padding: .5rem;
 }
 
 aside h2 {
   position: absolute;
-  top: 50 px;
-  left: 150 px;
+  top: 1rem;
+  left: 2rem;
 }
   
   
@@ -43,7 +43,9 @@ main img{
   float: right;
 }
   
-p{ padding: 0;}
+p{ padding: 0;
+
+}
  
 footer{
   margin-top: 15px;

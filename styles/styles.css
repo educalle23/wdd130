@@ -23,19 +23,6 @@ h1{
   color: steelblue;
   padding: .5rem;
 }
-
-aside h2 {
-  position: absolute;
-  top: 10px;
-  left: 70px;
-}
-  
-  
-aside img{
-  width: 100px;
-  height: auto;
-
-}
   
 main img{
   width: 100px;
@@ -47,7 +34,22 @@ main img{
   margin: 0 0 1rem 1rem;
 }
   
-p{ padding: 0;
+aside {
+  width: 20em;
+  text-align: center;
+  position: relative;
+}
+
+aside h2 {
+  position: absolute;
+  top: 10px;
+  left: 70px;
+}
+  
+  
+aside img{
+  width: 100px;
+  height: auto;
 
 }
  
@@ -65,12 +67,6 @@ footer{
   color: #000;
 }
   
-  
-aside {
-  width: 20em;
-  text-align: center;
-  position: relative;
-}
   
 /* Class selectors */
 .box {

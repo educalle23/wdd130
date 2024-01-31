@@ -13,10 +13,11 @@ nav{
     display: inline-block;
     position: relative;
     font-family: 'Hind', sans-serif;
+    float: ;
 }
 header img{
-    width: 800px;
-    padding: 40px;
+    width:1000px;
+    padding: 10px;
     float: left;
 }
   
@@ -51,15 +52,11 @@ a{
 
 
 .hero article{
-    background-color: var(--secondary-color);
-    position: relative;.
-}
-  
-.hero article{
     color: white;
     padding: 5px;
     display: block;
     position: absolute;
+    background-color: var(--secondary-color);
   }
 
 

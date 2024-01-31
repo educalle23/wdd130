@@ -1,4 +1,91 @@
-@import url(font-family: 'Hind', sans-serif;
-font-family: 'Roboto Slab', serif;);
+@import url("https://fonts.googleapis.com/css2?family=Hind:wght@300&display=swap");
+
+:root {
+    --primary-color: #0D1B2A;
+    --secondary-color: #1B263B;
+    --accent1: #415A77;
+    --accent2: #778DA9;
+}
+
+nav{
+    background-color: steelblue;
+    padding: 15px;
+    display: inline-block;
+    position: relative;
+    font-family: 'Hind', sans-serif;
+}
+header img{
+    width: 800px;
+    padding: 20px;
+}
+  
+nav a{
+    color: white;
+    padding: 10px;
+    align-content: center;
+}
+main{
+    background-color:var(--accent2);
+    max-width: 500px;
+    margin-left: 3%;
+}
 
 
+h2{
+    color: var(--primary-color);
+    font-size: 70px;
+    text-align: center;
+}
+
+footer{
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    text-align: center;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+
+.hero article{
+    background-color: var(--secondary-color);
+    position: relative;.
+}
+  
+.hero article{
+    color: white;
+    padding: 5px;
+    display: block;
+    position: absolute;
+  }
+
+
+
+.hero h1{
+    position: absolute;
+    text-align: center;
+    font-size: 80px; 
+    color: #0D1B2A;
+    left: 140px;
+    top: 600px;
+
+}
+
+.hero article{
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    max-width: 450px;
+    text-align: center;
+}
+
+.hero img{
+    width: 500px;
+}
+.hero article img {
+  width: 100px;
+  height: auto;
+  float: right;
+}

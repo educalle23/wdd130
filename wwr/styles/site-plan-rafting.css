@@ -1,60 +1,100 @@
 @import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
 
+
 :root {
   --primary-color: #0D1B2A;
   --secondary-color: #1B263B;
-  --accent1-color: #415A77;
-  --accent2-color: #778DA9;
-
-  --heading-font: 'hind', serif;
-  --paragraph-font: 'patua one', serif;
-
-  --nav-background-color: #CEEDDB;
-  --nav-link-color: #1B263B;
-  --nav-hover-link-color: #415A77;
-  --nav-hover-background-color: #778DA9;
+  --accent1: #415A77;
+  --accent2: #778DA9;
 }
-        
-body {
-  font-family: var(--paragraph-font);
-  max-width: 960px;
-  padding: 20px;
-}
-       
-h1, h2, h3, h4, h5, h6 {
-   font-family: var(--heading-font);
-   color: var(#0D1B2A);
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: center;
 }
 
 header {
-    padding: 20px;
-   background-color: var(#415A77);
+  background-color: var(--primary-color);
+  margin: 1rem auto;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  max-width: 1000px;
 }
 
-p {
-    padding: 25px;
-  }
+header img {
+  padding: 0.5rem;
+  margin: 0;
+  width: 120px;
+  height: auto;
+}
 
 nav {
-  background-color: var(--nav-background-color);
-  font-size: 1.2rem;
+  text-align: right;
+}
+
+.nav {
   display: flex;
-}
- 
-nav a {
- display: block;
-  color: var(--nav-link-color);
-  text-decoration: none;
-  padding: 1rem;
-}
-  
-nav a:link, nav a:visited {
-  color: var(--nav-link-color);
+  list-style: none;
+  margin: 0;
 }
 
- nav a:hover {
-   color: var(--nav-hover-link-color);
-   background-color: var(--nav-hover-background-color);
+.nav li {
+  margin-right: 20px;
 }
 
+.hero {
+  position: relative;
+  display: grid;
+  place-items: center;
+}
+
+.hero-content {
+  position: absolute;
+  text-align: center;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 3em;
+}
+
+.hero article {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.adventures {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.adventures figure {
+  text-align: center;
+  margin: 10px;
+}
+
+.adventures img {
+  max-width: 100%;
+}
+
+footer {
+  background-color: var(--primary-color);
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.sociallinks {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.sociallinks a {
+  margin-left: 10px;
+}
 

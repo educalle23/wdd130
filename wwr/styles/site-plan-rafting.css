@@ -25,10 +25,10 @@ header {
   max-width: 1000px;
 }
 
-header img {
+header img{
   padding: 0.5rem;
   margin: 0;
-  width: 120px;
+  width: 200px;
   height: auto;
 }
 
@@ -42,9 +42,6 @@ nav {
   margin: 0;
 }
 
-.nav li {
-  margin-right: 20px;
-}
 
 .hero {
   position: relative;
@@ -60,6 +57,7 @@ nav {
 
 .hero h1 {
   font-size: 3em;
+  position: absolute;
 }
 
 .hero article {

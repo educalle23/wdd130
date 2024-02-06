@@ -17,6 +17,9 @@
     max-width: 800px;
 }
 
+body{
+    background-color: cadetblue;
+
 header {
     background-color: antiquewhite;
 	margin: 1rem auto;
@@ -33,13 +36,12 @@ header img {
 	height: auto;
 }
 
-
+}
 nav {
 	display: flex;
 	list-style: none;
     margin: 0 15rem;
 }
-
 
 nav a {
 	display: block;
@@ -59,21 +61,21 @@ nav a:hover {
 }
 
 
-.hero img{
+    .hero img{
     display: block;
     width: 100%;
     height: auto;
-}
+    }
 
-.hero h1{
+    .hero h1{
     position: absolute;
     font-size: 150px;
     color: var(--accent2);
     top: 1.5rem;
     left: 10rem;
-}
+    }
 
-.hero article{
+    .hero article{
     position: absolute;
     z-index: 4;
     border: 1px #415A77;
@@ -83,8 +85,29 @@ nav a:hover {
     max-width: 700px;
     left: 50px;
     top: 15rem;
-}
-.hero article img{
+    text-align: center;
+    }   
+    .hero article img{
     width: 200px;
     float: right;
+    }
+
+    
+h2{
+    font-size: 100px;
+    display: flex;
+    padding-left: 200px;
+    color: #415A77;
+}
+
+
+.history {
+
+    
+}
+
+
+
+footer{
+    text-align: center;
 }

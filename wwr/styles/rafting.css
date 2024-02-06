@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
 :root {
     --primary-color: #0D1B2A;
     --secondary-color: #1B263B;
@@ -6,10 +10,11 @@
 }
 
 *{
-    margin: 0;
+    margin: 0.2rem;
     padding: 0;
     box-sizing: border-box;
     display: center;
+    max-width: 800px;
 }
 
 header {
@@ -19,7 +24,6 @@ header {
 	grid-template-columns: 120px 1fr 2fr;
 	align-items: center;
 	border-bottom: 1px solid #ccc;
-	max-width: 1000px;
 }
 
 header img {
@@ -29,52 +33,58 @@ header img {
 	height: auto;
 }
 
+
 nav {
-	text-align: right;
-
-}
-
-.nav {
 	display: flex;
 	list-style: none;
-    margin: 0 20rem;
+    margin: 0 15rem;
 }
 
-.nav li {
-	flex: 1 1 100%;
-}
 
-.nav a {
+nav a {
 	display: block;
-	color: navy;
+	color: var(--accent2);
 	padding: 20px;
 	text-decoration: none;
 }
 
-.nav a:hover {
+nav a:hover {
 	color: rgb(0, 0, 0);
 	font-weight: 700;
-	text-decoration: underline;
+	text-decoration: seashell;
 }
 
-.hero {
-    width: 20rem;
+.hero{
     position: relative;
-    grid-column: 1;
-    grid-row: 5;
 }
 
-.hero image{
-    position: relative;
-    align-content: center;
 
+.hero img{
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
 .hero h1{
     position: absolute;
     font-size: 150px;
+    color: var(--accent2);
+    top: 1.5rem;
+    left: 10rem;
 }
 
-.hero p{
+.hero article{
     position: absolute;
+    z-index: 4;
+    border: 1px #415A77;
+    top: 10rem;
+    background-color: aliceblue;
+    padding: 10px;
+    max-width: 700px;
+    left: 50px;
+    top: 15rem;
+}
+.hero article img{
+    width: 200px;
+    float: right;
 }

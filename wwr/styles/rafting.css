@@ -192,6 +192,9 @@ a img{
     border-radius: 20%;
 }
 
+footer a{
+    color: #0D1B2A;
+}
 .sociallinks{
     float: right;
 }

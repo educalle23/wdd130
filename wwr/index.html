@@ -1,80 +1,125 @@
-<!DOCTYPE html>
-    <html lang="en-US">
-    <head>
-        <link rel="stylesheet" href="styles/rafting.css">
-        <meta charset="utf-8">
-        <meta name="viewport" content="widht=device-width, initial-scale=1.0">
-        <title>CONTACT | SPLASH</title>
-        <meta name="description" content="Here you are going to find the way you can contact with Splash!.">
-        <meta name="author" content="Eduardo Calle">
-    </head>
-    <body>
-        <header>
-            <img src="images/logo.jpg" alt="Logo">
-            <nav>
-                <a href="index.html">Homepage</a>
-                <a href="about.html">About us</a>
-                <a href="trips.html">Trips</a>
-                <a href="contact.html">Contact Us</a>
-            </nav>
-        </header>
-        <main>
-          <div class="container">
-            <img src="images/homepage.jpeg" alt="Rafting!">
-            <section id="hero">
-              <div class="hero-content">
-                <h2>Welcome to Rafting Adventures</h2>
-                <p>Experience the thrill of white water rafting with us!</p>
-              </div>
-            </section>
-        
-            <section id="newsletter">
-              <h2>Subscribe to Our Newsletter</h2>
-              <form action="#" method="post">
-                <input type="text" id="name" name="name" placeholder="Your Name" required>
-                <input type="email" id="email" name="email" placeholder="Your Email" required>
-                <button type="submit">Subscribe</button>
-              </form>
-            </section>
-        
-            <section id="call-to-action">
-              <h2>Ready for an Adventure?</h2>
-              <p>Explore our exciting rafting trips!</p>
-              <a href="trips.html" class="button">View Trips</a>
-            </section>
-        
-            <section id="grid-layout">
-              <div class="grid-item">
-                <img src="images/homep1.jpeg" alt="Rafting 1">
-                <h3>Our Mission</h3>
-                <p>Our mission at SPLASH is to provide exhilarating and unforgettable white water rafting adventures while promoting environmental stewardship and fostering a deep appreciation for nature. We strive to deliver safe, thrilling, and professionally guided rafting experiences that inspire our guests to connect with the natural world, create lasting memories, and leave a positive impact on the environment. Through our dedication to exceptional service, sustainable practices, and a passion for adventure, we aim to be the premier choice for those seeking unparalleled rafting adventures while championing the preservation of our planet's rivers and ecosystems.</p>
-              </div>
-              <div class="grid-item">
-                <img src="images/homep2.jpeg" alt="Image 2">
-                <h3>Our Offerings</h3>
-                <p>Guided Rafting Tours<br> Customized Adventures <br>Instructional Courses <br>Family-Friendly Packages</p>
-              </div>
-            </section>
-          </div>        
-        </main>
-        <footer>
-          <div class="copyright">
-            <p class="signature">© SPLASH, 2024 | Eduardo Calle</p>
-            <nav class="wireframe">
-              <a href="https://github.com/educalle23/wdd130/blob/main/wwr/images/Untitled%20(1).png">You can see the Wirefram here.</a>
-              </a>
-            <nav class="sociallinks">
-              <a href="https://facebook.com">
-                <img src="images/facebook.png" alt="Facebook">
-              </a>
-              <a href="https://twitter.com/edu.calle23/">
-                <img src="images/twitter.png" alt="Twitter">
-              </a>
-              <a href="https://instagram.com">
-                <img src="images/instagram.png" alt="Instagram">
-              </a>
-            </nav>
+!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <link rel="stylesheet" href="styles/rafting.css">
+  <link rel="stylesheet" href="styles/home.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="widht=device-width, initial-scale=1.0">
+  <title>CONTACT | SPLASH</title>
+  <meta name="description" content="Here you are going to find the way you can contact with Splash!.">
+  <meta name="author" content="Eduardo Calle">
+  <style>
+    #hero-container .hero-content {
+      height: 40vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-image: linear-gradient(90deg,
+          rgba(2, 0, 36, 0.3) 0%,
+          rgba(2, 0, 36, 0.3) 51%,
+          rgba(2, 0, 36, 0.3) 100%),
+        url(/wwr/images/trip1.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      padding: 3% 2%;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <img src="images/logo.jpg" alt="Logo">
+    <nav>
+      <a href="index.html">Homepage</a>
+      <a href="about.html">About us</a>
+      <a href="trips.html">Trips</a>
+      <a href="contact.html">Contact Us</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero-container">
+      <div class="hero-content">
+        <h2>Welcome to Rafting Adventures</h2>
+        <p>Experience the thrill of white water rafting with us!</p>
+      </div>
+    </section>
+
+    <section id="newsletter">
+      <div class="call-to-action">
+        <h2>Subscribe to Our Newsletter</h2>
+        <form action="#" method="post">
+          <div class="container-input">
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
           </div>
-        </footer>
-      </body>
-      </html>          
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+
+      <div class="call-to-action">
+        <h2>Ready for an Adventure?</h2>
+        <div class="action-content">
+          <div class="container-text">
+            <p>Explore our exciting rafting trips!</p>
+          </div>
+          <a href="trips.html" class="button">View Trips</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="grid-layout">
+      <div class="grid-items">
+        <div class="grid-item1">
+          <img src="images/index1.jpg" alt="Rafting 1">
+        </div>
+        <div class="grid-item2">
+          <h3>Our Mission</h3>
+          <p>Our mission at SPLASH is to provide exhilarating and unforgettable white water rafting adventures while
+            promoting environmental stewardship and fostering a deep appreciation for nature. We strive to deliver safe,
+            thrilling, and professionally guided rafting experiences that inspire our guests to connect with the natural
+            world, create lasting memories, and leave a positive impact on the environment.</p>
+        </div>
+      </div>
+
+      <div class="grid-items">
+        <div class="grid-item2">
+          <h3>Our Offerings</h3>
+          <p>Guided Rafting Tours<br> Customized Adventures <br>Instructional Courses <br>Family-Friendly Packages</p>
+        </div>
+        <div class="grid-item1">
+          <img src="images/index2.jpg" alt="Image 2">
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="copyright">
+      <p class="signature">© SPLASH, 2024 | Eduardo Calle</p>
+      <nav class="wireframe">
+        <a class="github" target="_blank"
+          href="https://github.com/educalle23/wdd130/blob/main/wwr/images/Untitled%20(1).png">You can
+          see the Wirefram here.</a>
+        </a>
+      </nav>
+
+      <nav class="sociallinks">
+        <a href="https://facebook.com">
+          <img src="images/facebook.png" alt="Facebook">
+        </a>
+        <a href="https://twitter.com/edu.calle23/">
+          <img src="images/twitter.png" alt="Twitter">
+        </a>
+        <a href="https://instagram.com">
+          <img src="images/instagram.png" alt="Instagram">
+        </a>
+      </nav>
+    </div>
+  </footer>
+</body>
+
+</html>   

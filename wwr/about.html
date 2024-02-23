@@ -1,84 +1,111 @@
 <!DOCTYPE html>
-    <html lang="en-US">
-        <head>
-            <link rel="stylesheet" href="styles/rafting.css">
-            <meta charset="utf-8">
-            <meta name="viewport" content="widht=device-width, initial-scale=1.0">
-            <title>SPLASH | ABOUT</title>
-            <meta name="description" content="This page it's part of the week 03 assigment.">
-            <meta name="author" content="Eduardo Calle">
-            <style>
-                .hero {
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                    align-items: center;
-                    background-image: url(/wwr/images/background.jpg);
-                    background-repeat: no-repeat;
-                    background-size: cover;
-                    background-position: center;
-                    width: 100%;
-                    height: 60vh;
-                }
-            </style>
-        </head>
-    <body>
-        <header>
-            <img src="images/logo.jpg" alt="Logo">
-            <nav>
-                <a href="index.html">Homepage</a>
-                <a href="about.html">About us</a>
-                <a href="trips.html">Trips</a>
-                <a href="contact.html">Contact Us</a>
-            </nav>
-        </header>
-        <main>
-            <div class="hero">
-                <h1>Splash!</h1>
-                <article>
-                    <img src="images/happy_client.jpg" alt="happy client">
-                    <p>OUR MISSION at Splash is to provide exhilarating and unforgettable white water rafting adventures while promoting environmental stewardship and fostering a deep appreciation for nature. We strive to deliver safe, thrilling, and professionally guided rafting experiences that inspire our guests to connect with the natural world, create lasting memories, and leave a positive impact on the environment. Through our dedication to exceptional service, sustainable practices, and a passion for adventure, we aim to be the premier choice for those seeking unparalleled rafting adventures while championing the preservation of our planet's rivers and ecosystems.</p>
-                </article>
+<html lang="en-US">
+
+<head>
+    <link rel="stylesheet" href="styles/rafting.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="widht=device-width, initial-scale=1.0">
+    <title>SPLASH | ABOUT</title>
+    <meta name="description" content="This page it's part of the week 03 assigment.">
+    <meta name="author" content="Eduardo Calle">
+    <style>
+        #hero {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            background-image: linear-gradient(90deg,
+                    rgba(2, 0, 36, 0.3) 0%,
+                    rgba(2, 0, 36, 0.3) 51%,
+                    rgba(2, 0, 36, 0.3) 100%), url(/wwr/images/background.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            width: 100%;
+            height: 60vh;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.jpg" alt="Logo">
+        <nav>
+            <a href="index.html">Homepage</a>
+            <a href="about.html">About us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        <section id="hero">
+            <h1>Splash!</h1>
+            <article>
+                <img src="images/happy_client.jpg" alt="happy client">
+                <p>OUR MISSION at Splash is to provide exhilarating and unforgettable white water rafting adventures
+                    while promoting environmental stewardship and fostering a deep appreciation for nature. We strive to
+                    deliver safe, thrilling, and professionally guided rafting experiences that inspire our guests to
+                    connect with the natural world, create lasting memories, and leave a positive impact on the
+                    environment. Through our dedication to exceptional service, sustainable practices, and a passion for
+                    adventure, we aim to be the premier choice for those seeking unparalleled rafting adventures while
+                    championing the preservation of our planet's rivers and ecosystems.</p>
+            </article>
+        </section>
+
+        <section id="history">
+            <h2> History</h2>
+            <div class="container_history">
+                <div class="history-item">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam non reprehenderit accusantium
+                        obcaecati omnis vitae sit quas tempore quam, nulla esse consequatur at deleniti corporis odit
+                        adipisci magni magnam consectetur?</p>
+                </div>
+                <div class="history-item"><img src="images/history.jpg" alt="img"></div>
+                <div class="history-item">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui numquam ut distinctio non rem
+                        quasi?
+                        Eligendi placeat ducimus animi ab necessitatibus in ullam atque corporis aperiam magni,
+                        molestiae,
+                        molestias ad! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati fugit
+                        voluptatibus
+                        facilis veniam repudiandae eveniet quaerat consequuntur eius dolor? Ex iusto reprehenderit
+                        adipisci
+                        maiores doloremque, maxime explicabo in hic nisi?</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="Adventure">
+            <h2>Adventure Awaits You!</h2>
+            <div class="container_adventure">
+                <img src="images/example_1.jpg" alt="1">
+                <img src="images/example_2.jpg" alt="2">
+                <img src="images/example_3.jpg" alt="3">
+                <img src="images/example_4.jpg" alt="4">
+                <img src="images/example_5.jpg" alt="5">
             </div>
 
-            <section id="history">
-                <h2 id="Thistory"> History</h2>
-                <div class="container_history">
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam non reprehenderit accusantium obcaecati omnis vitae sit quas tempore quam, nulla esse consequatur at deleniti corporis odit adipisci magni magnam consectetur?</p>
-                    <img src="images/history.jpg" alt="img">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui numquam ut distinctio non rem quasi? Eligendi placeat ducimus animi ab necessitatibus in ullam atque corporis aperiam magni, molestiae, molestias ad! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati fugit voluptatibus facilis veniam repudiandae eveniet quaerat consequuntur eius dolor? Ex iusto reprehenderit adipisci maiores doloremque, maxime explicabo in hic nisi?</p> 
-                </div>
-                   
-            </section>
+        </section>
+    </main>
 
-            <section id="Adventure">
-                <h2>Adventure Awaits You!</h2>
-                <div class="container_adventure">
-                    <img src="images/example_1.jpg" alt="1" >
-                    <img src="images/example_2.jpg" alt="2" >
-                    <img src="images/example_3.jpg" alt="3" >
-                    <img src="images/example_4.jpg" alt="4" >
-                    <img src="images/example_5.jpg" alt="5" >
-                </div>
-                
-            </section>
-        </main>
-        <footer>
-            <div class="copyright">
-              <p class="signature">© SPLASH, 2024 | Eduardo Calle</p>
-        
-              <nav class="sociallinks">
+    <footer>
+        <div class="copyright">
+            <p class="signature">© SPLASH, 2024 | Eduardo Calle</p>
+
+            <nav class="sociallinks">
                 <a href="https://facebook.com">
-                  <img src="images/facebook.png" alt="Facebook">
+                    <img src="images/facebook.png" alt="Facebook">
                 </a>
                 <a href="https://twitter.com/edu.calle23/">
-                  <img src="images/twitter.png" alt="Twitter">
+                    <img src="images/twitter.png" alt="Twitter">
                 </a>
                 <a href="https://instagram.com">
-                  <img src="images/instagram.png" alt="Instagram">
+                    <img src="images/instagram.png" alt="Instagram">
                 </a>
-              </nav>
-            </div>
-          </footer>
-    </body>
+            </nav>
+        </div>
+    </footer>
+     
+</body>
 </html>
